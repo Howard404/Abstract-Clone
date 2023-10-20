@@ -1,13 +1,13 @@
 @import url(https://db.onlinewebfonts.com/c/031da03967812d134ed68febd3ba78a9?family=GT+America+Regular);
+@import url('https://fonts.cdnfonts.com/css/gt-america-trial');
 * {
-    font-family: "GT America Regular";
+    font-family: 'GT America Trial', sans-serif;
 }
 
 /* Font Family */
 
 body {
     margin: 0;
-    font-family: "GT America Regular";
 }
 
 /* Navigation */
@@ -34,7 +34,7 @@ nav {
     border-radius: 8px;
     padding: 6px 22px;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     line-height: 36px;
     vertical-align: middle;
@@ -48,7 +48,7 @@ nav {
     border-radius: 8px;
     padding: 7px 33px;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     line-height: 36px;
     vertical-align: middle;
@@ -61,6 +61,7 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .help-link {
@@ -70,5 +71,43 @@ nav {
     padding: 2px 0px 2px 12px;
     margin: 4px 0 0 12px;
     border-left: solid 1px white;
-    font-weight: 100;
+    font-weight: 300;
+}
+
+/* Search Section */
+.search-section{
+    padding: 80px 30px 115px 30px;
+    background: #DADBF1;
+}
+
+.search-container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    margin-top: 1rem;
+    letter-spacing: -2px;
+}
+
+form {
+    text-align: center;
+}
+
+.hero-serach {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hero-serach:focus {
+    outline: none;
+    border: 1px solid #4C5FD5;
 }
