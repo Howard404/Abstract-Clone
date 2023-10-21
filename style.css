@@ -54,6 +54,8 @@ nav {
     vertical-align: middle;
     cursor: pointer;
     background: rgb(76, 95, 213);
+    transition: color .5s ease-in-out;
+    transition: background-color .3s ease-in-out;
 }
 
 /* Left side navigation controls */
@@ -62,6 +64,7 @@ nav {
     color: white;
     font-size: 1.5rem;
     font-weight: 500;
+    transition: color .3s ease-in-out;
 }
 
 .help-link {
@@ -72,6 +75,20 @@ nav {
     margin: 4px 0 0 12px;
     border-left: solid 1px white;
     font-weight: 300;
+}
+
+/* Hover effects for navigation */
+.logo:hover {
+    color:#cdcdcd;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+}
+
+.sign-in:hover {
+    color: black;
+    background-color: white;
 }
 
 /* Search Section */
@@ -91,7 +108,7 @@ h1 {
     font-weight: 400;
     margin-bottom: 28px;
     margin-top: 1rem;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
 }
 
 form {
@@ -100,11 +117,12 @@ form {
 
 .hero-serach {
     width: 100%;
-    padding: 1rem;
+    padding: 1.2rem 1rem;
     border: 1px solid black;
     border-radius: 4px;
     font-size: 20px;
     font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 9px 14px 0px;
 }
 
 .hero-serach:focus {
