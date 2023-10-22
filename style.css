@@ -95,6 +95,7 @@ nav {
 .search-section{
     padding: 80px 30px 115px 30px;
     background: #DADBF1;
+    line-height: 30px;
 }
 
 .search-container {
@@ -106,8 +107,9 @@ h1 {
     text-align: center;
     font-size: 80px;
     font-weight: 400;
-    margin-bottom: 28px;
-    margin-top: 1rem;
+    
+    margin-bottom: 60px;
+    margin-top: 3rem;
     letter-spacing: -3px;
 }
 
@@ -129,3 +131,35 @@ form {
     outline: none;
     border: 1px solid #4C5FD5;
 }
+
+/* Main content styling */
+
+.main-content {
+    position: relative;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.item {
+    display: flex;
+    width: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px;
+}
+
