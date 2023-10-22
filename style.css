@@ -136,27 +136,51 @@ form {
 
 .main-content {
     position: relative;
+    padding: 0 30px 0 30px;
+}
+
+.main-inner {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.main-list {
+    margin-top: 128px;
+    margin-bottom: 64px;
 }
 
 .content-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     box-sizing: border-box;
+    width: 50%;
 }
 
 .item {
     display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     width: 100px;
+}
+
+.content-item {
+    width: 100%;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    margin-right: 30px;
+    vertical-align: middle;
 }
 
 h4 {
     font-size: 24px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 p {
